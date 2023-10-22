@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		781545F92AE1C03300F922A7 /* TravelAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781545F82AE1C03300F922A7 /* TravelAppApp.swift */; };
+		781545F92AE1C03300F922A7 /* MyTravelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781545F82AE1C03300F922A7 /* MyTravelApp.swift */; };
 		781545FB2AE1C03300F922A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781545FA2AE1C03300F922A7 /* ContentView.swift */; };
 		781545FD2AE1C03400F922A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 781545FC2AE1C03400F922A7 /* Assets.xcassets */; };
 		781546002AE1C03400F922A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 781545FF2AE1C03400F922A7 /* Preview Assets.xcassets */; };
+		781546572AE2AE3B00F922A7 /* LikedLocationTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781546562AE2AE3B00F922A7 /* LikedLocationTip.swift */; };
+		781546592AE2B0E500F922A7 /* FavoriteLandmarkTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781546582AE2B0E500F922A7 /* FavoriteLandmarkTip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		781545F52AE1C03300F922A7 /* TravelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		781545F82AE1C03300F922A7 /* TravelAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelAppApp.swift; sourceTree = "<group>"; };
+		781545F82AE1C03300F922A7 /* MyTravelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTravelApp.swift; sourceTree = "<group>"; };
 		781545FA2AE1C03300F922A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		781545FC2AE1C03400F922A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		781545FF2AE1C03400F922A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		781546562AE2AE3B00F922A7 /* LikedLocationTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedLocationTip.swift; sourceTree = "<group>"; };
+		781546582AE2B0E500F922A7 /* FavoriteLandmarkTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteLandmarkTip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +55,8 @@
 		781545F72AE1C03300F922A7 /* TravelApp */ = {
 			isa = PBXGroup;
 			children = (
-				781545F82AE1C03300F922A7 /* TravelAppApp.swift */,
+				781546552AE2AE1A00F922A7 /* Tips */,
+				781545F82AE1C03300F922A7 /* MyTravelApp.swift */,
 				781545FA2AE1C03300F922A7 /* ContentView.swift */,
 				781545FC2AE1C03400F922A7 /* Assets.xcassets */,
 				781545FE2AE1C03400F922A7 /* Preview Content */,
@@ -65,6 +70,15 @@
 				781545FF2AE1C03400F922A7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		781546552AE2AE1A00F922A7 /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				781546562AE2AE3B00F922A7 /* LikedLocationTip.swift */,
+				781546582AE2B0E500F922A7 /* FavoriteLandmarkTip.swift */,
+			);
+			path = Tips;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				781546572AE2AE3B00F922A7 /* LikedLocationTip.swift in Sources */,
 				781545FB2AE1C03300F922A7 /* ContentView.swift in Sources */,
-				781545F92AE1C03300F922A7 /* TravelAppApp.swift in Sources */,
+				781545F92AE1C03300F922A7 /* MyTravelApp.swift in Sources */,
+				781546592AE2B0E500F922A7 /* FavoriteLandmarkTip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
